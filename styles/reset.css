@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #014962;
+}
+
+a, li, ul, ol{
+    text-decoration: none;
+}
+
+
+main{
+    background-image: url(../image/jellyfish.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    gap: 3%;
+}
+
+footer {
+    background-color: #001622;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+}

@@ -1,0 +1,45 @@
+section{
+    height: 80vh;
+    width: 80%;
+    padding: 1.5%;
+    border-radius: 30px;
+}
+
+
+.title{
+    font-size: 3rem;
+    color: #DDFCFF;
+    font-weight: 600;
+    animation: myAnim 2s ease 1s 1 normal forwards;
+
+}
+
+.text{
+    font-size: 2rem;
+    color: #DDFCFF;
+    font-weight: 400;
+    animation: myAnim 2s ease 1s 1 normal forwards;
+}
+
+section div{
+    margin-top: 3%;
+}
+
+#objetivo{
+    height: 90vh;
+}
+#impacto{
+    height: 90vh;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

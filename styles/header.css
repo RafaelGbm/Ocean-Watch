@@ -1,0 +1,45 @@
+header {
+    background-color: #001622;
+    color: #DDFCFF;
+    width: 100%;
+    height: 10vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    list-style: none;
+    width: 40%;
+}
+
+header a{
+    color: #DDFCFF;
+
+}
+
+.container-logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+}
+
+.container-logo i{
+    font-size: 2rem;
+}
+
+a{
+    transition: 1000ms;
+    
+}
+a:hover{
+    color: #F3999D
+}
