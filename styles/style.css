@@ -1,8 +1,12 @@
 section{
-    height: 80vh;
-    width: 80%;
-    padding: 1.5%;
+    height: 100vh;
+    width: 100%;
+    padding: 2%;
     border-radius: 30px;
+}
+
+#oProblema{
+    animation: fadeInRight 3s ease 0s 1 normal forwards;
 }
 
 
@@ -10,7 +14,6 @@ section{
     font-size: 3rem;
     color: #DDFCFF;
     font-weight: 600;
-    animation: myAnim 2s ease 1s 1 normal forwards;
 
 }
 
@@ -18,24 +21,93 @@ section{
     font-size: 2rem;
     color: #DDFCFF;
     font-weight: 400;
-    animation: myAnim 2s ease 1s 1 normal forwards;
+    
 }
 
 section div{
     margin-top: 3%;
 }
 
-#objetivo{
-    height: 90vh;
-}
-#impacto{
-    height: 90vh;
+#tecnologias div{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
-@keyframes myAnim {
+#tecnologias img{
+    width: 40em;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+
+#tecnologias{
+    text-align: end;
+    animation: fadeInLeft 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 90%;
+}
+
+#tecnologias .text{
+    width: 60%;
+}
+
+#objetivo{
+
+    animation: fadeInRight 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 50%;
+}
+
+
+#publicoAlvo{
+    text-align: end;
+    animation: fadeInLeft 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 50%;
+}
+
+#publicoAlvo div{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#beneficios{
+    animation: fadeInLeft 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 50%;
+}
+
+
+#impacto{
+
+    animation: fadeInLeft 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 90%;
+}
+
+@keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		transform: translateX(-50px);
+		transform: translateX(-150px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
 	}
 
 	100% {
