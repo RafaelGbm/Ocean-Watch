@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: #014962;
+    background-color: #004561;
+    overflow-x:hidden ;
+    overflow-y: scroll;
 }
 
 a, li, ul, ol{
@@ -15,15 +17,10 @@ a, li, ul, ol{
 
 
 main{
-    background-image: url(../image/jellyfish.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4%;
     gap: 1%;
 }
 
@@ -31,7 +28,6 @@ footer {
     background-color: #000407;
     color: white;
     text-align: center;
-    bottom: 0;
     width: 100%;
     height: 15vh;
 }

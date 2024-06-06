@@ -13,3 +13,29 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    let currentIndex = 0;
+    const images = document.querySelectorAll(".container__images .slider");
+    const totalImages = images.length;
+
+    const showImage = index => {
+        images.forEach((img, i) => {
+            img.classList.toggle("on", i === index);
+        });
+    };
+
+    const nextImage = () => {
+        currentIndex = (currentIndex + 1) % totalImages;
+        showImage(currentIndex);
+    };
+
+    const prevImage = () => {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        showImage(currentIndex);
+    };
+    
+    // Auto slide
+    setInterval(nextImage, 3000); // 3000ms = 3s interval
+});
+

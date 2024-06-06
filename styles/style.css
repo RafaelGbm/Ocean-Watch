@@ -2,13 +2,21 @@ section{
     height: 100vh;
     width: 100%;
     padding: 2%;
-    border-radius: 30px;
+}
+.container-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 80%;
+    padding: 5%;
+
 }
 
 #oProblema{
-    animation: fadeInRight 3s ease 0s 1 normal forwards;
-}
+    display: flex;
 
+}
 
 .title{
     font-size: 3rem;
@@ -16,25 +24,76 @@ section{
     font-weight: 600;
 
 }
-
 .text{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
     color: #DDFCFF;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
 
-section div{
-    margin-top: 3%;
+
+#tecnologias{
+    background: rgb(0,69,97);
+    background: linear-gradient(180deg, rgba(0,69,97,1) 0%, rgba(78,131,153,1) 100%);
+
 }
 
-#tecnologias div{
+.container-icons{
+    font-size: 6rem;
+    color: #DDFCFF;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7%;
+    padding: 9%;
+}
+
+.container-icons i{
+    height: 20%;
+
+}
+
+.fa-html5:hover{
+    color: #DD4B25;
+    transition: 1000ms;
+}
+
+.fa-css3-alt:hover{
+    color: #2060AB;
+    transition: 1000ms;
+}
+
+.fa-js:hover{
+    color: #EFD81D;
+    transition: 1000ms;
+}
+
+.fa-figma:hover{
+    color: #9D56F7;
+    transition: 1000ms;
+}
+
+.fa-square-github:hover{
+    color: #000000;
+    transition: 1000ms;
+}
+
+.fa-git:hover{
+    color: #E84E31;
+    transition: 1000ms;
+}
+
+.fa-python:hover{
+    color: #F7C936;
+    transition: 1000ms;
+}
+/* #tecnologias div{
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    
+    flex-direction: column;    
 }
 
 #tecnologias img{
@@ -43,19 +102,12 @@ section div{
     box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
 }
 
-#tecnologias{
-    text-align: end;
-    animation: fadeInLeft 2s ease 0s 1 normal forwards;
-    animation-timeline: view();
-    animation-range: conver 0% 90%;
-}
 
-#tecnologias .text{
-    width: 60%;
-}
+
+
+
 
 #objetivo{
-
     animation: fadeInRight 2s ease 0s 1 normal forwards;
     animation-timeline: view();
     animation-range: conver 0% 50%;
@@ -63,21 +115,13 @@ section div{
 
 
 #publicoAlvo{
+    display: flex;
+    flex-direction: row-reverse;
     text-align: end;
     animation: fadeInLeft 2s ease 0s 1 normal forwards;
     animation-timeline: view();
     animation-range: conver 0% 50%;
 }
-
-#publicoAlvo div{
-    width: 100%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
 #beneficios{
     animation: fadeInLeft 2s ease 0s 1 normal forwards;
     animation-timeline: view();
@@ -90,7 +134,7 @@ section div{
     animation: fadeInLeft 2s ease 0s 1 normal forwards;
     animation-timeline: view();
     animation-range: conver 0% 90%;
-}
+} */
 
 @keyframes fadeInLeft {
 	0% {
