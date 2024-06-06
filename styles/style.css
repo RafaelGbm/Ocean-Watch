@@ -3,32 +3,11 @@ section{
     width: 100%;
     padding: 2%;
 }
-.container-text{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 80%;
-    padding: 5%;
 
-}
-
-#oProblema{
-    display: flex;
-
-}
-
-.title{
-    font-size: 3rem;
-    color: #DDFCFF;
-    font-weight: 600;
-
-}
-.text{
-    font-size: 1.5rem;
-    text-align: center;
-    color: #DDFCFF;
-    font-weight: 400;   
+body {
+    background-color: #004561;
+    overflow-x:hidden;
+    overflow-y:scroll;
 }
 
 

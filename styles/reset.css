@@ -5,11 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background-color: #004561;
-    overflow-x:hidden ;
-    overflow-y: scroll;
-}
+
 
 a, li, ul, ol{
     text-decoration: none;
@@ -21,7 +17,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1%;
 }
 
 footer {

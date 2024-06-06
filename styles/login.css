@@ -1,0 +1,111 @@
+body{
+    background-color: #001622;
+}
+
+main{
+    height: 100vh;
+}
+.container-login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 40%;
+    height: 100%;
+    background-image: url(../image/login-background.jpg);
+    background-size: cover;
+    
+}
+
+
+.right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.container-logo{
+    display: flex;
+    flex-direction: row;
+    color: #DDFCFF;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.container-logo i{
+    font-size: 2rem;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5% ;
+    width: 100%;
+}
+
+.form-control{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    width: 40%;
+    height: 100%;
+    color: #DDFCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+    height: 3em;
+    padding: 3% 5%;
+    border-radius: 10px;
+    
+}
+
+button{
+    width: 6em;
+    height: 3em;
+    background-color: #DDFCFF;
+    border: none;
+    border-radius: 3px;
+    color: #001622;
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#email{
+    margin-bottom: 2em;
+}
+
+label{
+    margin-bottom: 2%;  
+}
+
+
+.back-text{
+    color: #DDFCFF;
+}
+
+button:hover{
+    background-color: #a7cbce;
+    transition: 1000ms;
+}
+
