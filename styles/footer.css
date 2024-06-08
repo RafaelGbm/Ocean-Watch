@@ -10,6 +10,9 @@ footer {
 .left-footer{
     width: 50%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-right: solid 1px #fff;
     padding: 1%;
 }
@@ -18,7 +21,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 40%;
+    width: 100%;
     gap: 5%;
 }
 
@@ -31,4 +34,26 @@ footer {
     display: flex;
     align-items: center;
     
+}
+
+.right-footer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left-footer a :hover{
+    color: #F3999D;
+    transition: 1000ms;
+}
+
+.container-logo-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
 }
