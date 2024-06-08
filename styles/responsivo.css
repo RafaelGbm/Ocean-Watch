@@ -174,4 +174,20 @@ ul.nav-menu li a {
         width: auto;
     }
 
+    .container-footer{
+        flex-direction: column;
+    }
+
+    .left-footer{
+        border-right: none;
+    }
+
+    .container-logo-footer h1{
+        font-size: 1rem;
+    }
+
+    .container-logo-footer i{
+        display: none;
+    }
+
 }
