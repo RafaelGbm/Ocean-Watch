@@ -13,9 +13,8 @@ header {
 header ul{
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 10px;
     list-style: none;
-    width: 45%;
 }
 
 header a{

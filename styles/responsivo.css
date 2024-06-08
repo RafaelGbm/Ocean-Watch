@@ -1,0 +1,170 @@
+/* Estilos básicos */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    white-space: nowrap;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.container-logo h1 {
+    margin-right: 10px;
+}
+
+ul.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-menu li {
+    margin-left: 20px;
+}
+
+ul.nav-menu li a {
+    text-decoration: none;
+    color: #DDFCFF;
+}
+
+/* Menu hambúrguer */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #DDFCFF;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Estilos para mobile */
+
+@media (max-width: 1000px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section {
+        height: auto
+    }
+
+    .fa-brands{
+        font-size: 50px;
+    }
+
+    .right-tech{
+        gap: 30px;
+        width: 300px;
+    }
+
+    .left-tech{
+        width: auto;
+    }
+
+    .container-text-tech{
+        width: auto
+    }
+
+    .container-tech{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .container-logo i {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    ul.nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #001622;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 10;
+    }
+
+    ul.nav-menu li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    ul.nav-menu li a {
+        padding: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    ul.nav-menu.active {
+        display: flex;
+    }
+
+    .container__slider{
+        display: none;
+    }
+
+    .container-objetivo{
+        align-items: center;
+        width: auto;
+        margin: 0 40px;
+    }
+
+    .container-title-publico{
+        justify-content: center;
+    }
+
+    .title{
+        margin-bottom: 25px;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+
+    .container-title-objetivo{
+        justify-content: center;
+        margin: 25px 0px;
+    }
+
+    .image-objetivo{
+        width: 200px;
+    }
+
+    .container-publico{
+        align-items: center;
+        width: auto;
+        margin: 0 40px;
+    }
+
+    .rigth-publico img{
+        width: 200px;
+    }
+
+
+
+}
