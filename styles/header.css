@@ -13,8 +13,7 @@ header {
 header ul{
     display: flex;
     flex-direction: row;
-    gap: 5%;
-    width: 45%;
+    gap: 10px;
 }
 
 header a{
