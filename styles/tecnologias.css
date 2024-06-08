@@ -1,0 +1,92 @@
+#tecnologias{
+
+    background: rgb(0, 69, 97);
+    background: linear-gradient(180deg, rgba(0, 69, 97, 1) 0%, rgb(3, 38, 53) 100%);
+}
+.container-title-tech{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tech{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+.right-tech{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.row-tech{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    font-size: 5rem;
+    color: #DDFCFF;
+    gap: 20%;
+}
+.left-tech{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center
+}
+
+.container-text-tech{    
+    width: 75%;
+    font-size: 1.8rem;
+    text-align: start;
+    color: #DDFCFF;
+    font-weight: 400;   
+}
+
+
+
+
+
+
+
+
+.fa-html5:hover {
+    color: #DD4B25;
+    transition: 1000ms;
+}
+
+.fa-css3-alt:hover {
+    color: #2060AB;
+    transition: 1000ms;
+}
+
+.fa-js:hover {
+    color: #EFD81D;
+    transition: 1000ms;
+}
+
+.fa-figma:hover {
+    color: #9D56F7;
+    transition: 1000ms;
+}
+
+.fa-square-github:hover {
+    color: #000000;
+    transition: 1000ms;
+}
+
+.fa-git:hover {
+    color: #E84E31;
+    transition: 1000ms;
+}
+
+.fa-python:hover {
+    color: #F7C936;
+    transition: 1000ms;
+}
