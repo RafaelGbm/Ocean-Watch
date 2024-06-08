@@ -1,0 +1,33 @@
+/* #impacto {
+
+    animation: fadeInLeft 2s ease 0s 1 normal forwards;
+    animation-timeline: view();
+    animation-range: conver 0% 90%;
+} */
+.container-title-impacto{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+    gap: 1%;
+    margin-bottom: 3%;
+}
+
+.container-text-impacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-image-impacto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-image-impacto img{
+    width: 25%;
+}

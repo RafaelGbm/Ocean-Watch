@@ -37,23 +37,6 @@ body {
     padding: 9%;
 }
 
-
-
-
-#beneficios {
-    animation: fadeInLeft 2s ease 0s 1 normal forwards;
-    animation-timeline: view();
-    animation-range: conver 0% 50%;
-}
-
-
-#impacto {
-
-    animation: fadeInLeft 2s ease 0s 1 normal forwards;
-    animation-timeline: view();
-    animation-range: conver 0% 90%;
-}
-
 @keyframes fadeInLeft {
     0% {
         opacity: 0;

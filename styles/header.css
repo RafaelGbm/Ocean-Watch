@@ -14,7 +14,6 @@ header ul{
     display: flex;
     flex-direction: row;
     gap: 5%;
-    list-style: none;
     width: 45%;
 }
 
