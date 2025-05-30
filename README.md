@@ -7,15 +7,13 @@ Sistema de monitoramento ambiental voltado à preservação dos oceanos e recurs
 - Visualização de dados ambientais relacionados aos oceanos
 - Interface amigável e responsiva
 - Destaque para temas de sustentabilidade e preservação ambiental
-- [Opcional] Integração com sensores ou APIs públicas de dados ambientais
 
 ## 🧰 Tecnologias Utilizadas
 
 - React.js
 - JavaScript
 - HTML5 + CSS3
-- Bootstrap / Tailwind (ajustar conforme o que você usou)
-- [Adicionar outras, se houver – ex: consumo de API, biblioteca de gráficos, etc.]
+- Tailwind 
 
 ## 🚀 Como Executar Localmente
 
